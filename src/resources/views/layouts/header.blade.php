@@ -99,7 +99,7 @@
                                                 class="flex items-center focus:outline-none ml-4">
                                                 <div
                                                     class="w-8 h-8 overflow-hidden border-2 border-gray-400 rounded-full">
-                                                    <img src="{{ $loginTeacher->user()->image == null || '' ? asset('img/kkrn_icon_user_13.png') : asset($teacher->image) }}"
+                                                    <img src="{{ $loginTeacher->user()->image == null || '' ? asset('img/kkrn_icon_user_13.png') : asset($loginTeacher->user()->image) }}"
                                                         class="object-cover w-full h-full" alt="avatar">
                                                 </div>
                                             </a>
